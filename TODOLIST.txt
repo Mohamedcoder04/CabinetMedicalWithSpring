@@ -1,0 +1,8 @@
+* on a créé les MODELS;
+* on a réalisé les DTOS;
+* on a créé la couche DAO "REPOSITORIES";
+* on a developpé les VALIDATEURS;
+* on a fait les interfaces des services et on a créé les classes qui les implimente;
+* on a personnalisé les CONTROLLERS
+* on a généré nos propres EXCEPTION et gestionnaire d'EXCEPTION GLOBAL 
+* on a utilisé FLICKR pour stocker les images (SERVICE - CONFIGURATION) 

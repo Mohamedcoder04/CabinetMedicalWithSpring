@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/gestioncabinetmedecalwithspring?createDatabaseIfNotExist=true
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    database: MYSQL
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  port: 8088
+
+flickr:
+  apiKey: 11aeb652ac113cac71cacc11ca993632
+  apiSecret: dc85302d6c0906f7
+  appKey: 72157720864222773-c70532f499839dce
+  appSecret: 7e2b9534a304ea7a
